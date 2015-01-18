@@ -35,25 +35,37 @@
 
 <body>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div    style="position: fixed; top:5px; left: 5px; z-index: 99999"
+        class="fb-like" data-href="https://www.facebook.com/demi.despre.md" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+
     <!-- Navigation -->
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top">demi color</a>
+                <a href="#home">demi color</a>
             </li>
             <li>
-                <a href="#top">Home</a>
+                <a href="#home">Home</a>
             </li>
             <li>
                 <a href="#about">About</a>
             </li>
             <li>
-                <a href="#services">Small details</a>
+                <a href="#details">Small details</a>
             </li>
             <li>
-                <a href="#portfolio">Images</a>
+                <a href="#images">Images</a>
             </li>
             <li>
                 <a href="#contact">Contacts</a>
@@ -62,8 +74,9 @@
     </nav>
 
     <!-- Header -->
-    <header id="top" class="header">
+    <header id="home" class="header">
         <div class="text-vertical-center">
+            <h1><img src="img/logo.png"></h1>
             <h1>demi color</h1>
             <h3>Free coloring images for kids</h3>
             <br>
@@ -87,7 +100,7 @@
 
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
+    <section id="details" class="services bg-primary">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
@@ -164,7 +177,7 @@
     <!--</aside>-->
 
     <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
+    <section id="images" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
@@ -174,28 +187,28 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
+                                <a target="_blank" href="https://drive.google.com/folderview?id=0B1f6kR6jjeiQT1I1ZW5ON3lpMTA&usp=sharing&tid=0B1f6kR6jjeiQVmVjeG9Ea2YzY00">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
+                                <a target="_blank" href="https://drive.google.com/folderview?id=0B1f6kR6jjeiQU3g5TndoUzlKMUk&usp=sharing&tid=0B1f6kR6jjeiQVmVjeG9Ea2YzY00">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
+                                <a target="_blank" href="https://drive.google.com/folderview?id=0B1f6kR6jjeiQT1I1ZW5ON3lpMTA&usp=sharing&tid=0B1f6kR6jjeiQVmVjeG9Ea2YzY00">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
+                                <a target="_blank" href="https://drive.google.com/folderview?id=0B1f6kR6jjeiQU3g5TndoUzlKMUk&usp=sharing&tid=0B1f6kR6jjeiQVmVjeG9Ea2YzY00">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
                                 </a>
                             </div>
